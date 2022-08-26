@@ -1,0 +1,10 @@
+BRAND: name, footer_order, created_at, updated_at
+is a, 01 PRODUCT, 0N TYPE
+TYPE: name, footer_order, created_at, update_at
+
+made, 01 PRODUCT, 0N BRAND
+PRODUCT: name, description, picture, price, rate, status, created_at, updated_at
+belongs to, 01 PRODUCT, 0N CATEGORY
+
+::
+CATEGORY: name, subtitle, picture, home_order, created_at, updated_at
